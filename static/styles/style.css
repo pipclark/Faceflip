@@ -14,10 +14,12 @@ html {
 .controls {
    background-color: transparent;
    background-image: url("/static/RSQnowords.png");
+   display: flex;
+   flex-direction: column;
    }
 
 #description {
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
   /*margin-right: 40rem;*/
   width: 60%;
@@ -30,11 +32,14 @@ html {
 }
 
 .mainbuttons {
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px, 10px;
   background: #20500a;
   color: #b8b524;
   border-radius: 3px;
+  text-align: center;
+  width: 30%;
+  justify-content: center;
 }
 
 .photobooth {
@@ -58,7 +63,7 @@ html {
 
 .player {
   position: absolute;
-  top: 20px;
+  top: 150px;
   right: 20px;
   width:200px;
 }
@@ -84,3 +89,11 @@ html {
 .strip a:nth-child(5n+3) img { transform: rotate(8deg); }
 .strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
 .strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
+@media screen and (max-width: 640px) {
+  .mainbuttons {
+    display: flex;
+    width: 60%;
+    margin: 0;
+  }
+}
