@@ -8,7 +8,33 @@ html {
 
 html {
   font-size: 10px;
-  background: #ffc600;
+  background-image: url("/static/RSQnowords.png");
+}
+
+.controls {
+   background-color: transparent;
+   background-image: url("/static/RSQnowords.png");
+   }
+
+#description {
+  font-size: 18px;
+  color: #fff;
+  /*margin-right: 40rem;*/
+  width: 60%;
+  align-self: left;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#podlink {
+    color: #fff;
+}
+
+.mainbuttons {
+  font-size: 20px;
+  padding: 10px, 10px;
+  background: #20500a;
+  color: #b8b524;
+  border-radius: 3px;
 }
 
 .photobooth {
