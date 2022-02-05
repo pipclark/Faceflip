@@ -31,15 +31,25 @@ html {
     color: #fff;
 }
 
+
 .mainbuttons {
+    display: inline-block;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
   font-size: 30px;
   padding: 10px, 10px;
   background: #20500a;
   color: #b8b524;
-  border-radius: 3px;
+  border-radius: 5px;
   text-align: center;
   width: 30%;
   justify-content: center;
+}
+
+#buttonsplace {
+    text-align: center;
+    background-color: transparent;
 }
 
 .photobooth {
@@ -92,8 +102,7 @@ html {
 
 @media screen and (max-width: 640px) {
   .mainbuttons {
-    display: flex;
-    width: 60%;
+    width: 80%;
     margin: 0;
   }
 }
